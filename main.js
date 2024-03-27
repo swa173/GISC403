@@ -35,7 +35,7 @@ const marker4 = L.marker([-46.121,167.690]).addTo(map)
 // Edit the style of these polygons (see: https://leafletjs.com/reference.html#path)
 var geojsonLayer = new L.GeoJSON.AJAX("https://raw.githubusercontent.com/gdmckenzie123/GISC403/main/TA.geojson", {
 		color: 'purple',
-		fillOpacity: 0.6,
+		fillOpacity: 0.1,
 	});
 geojsonLayer.addTo(map);
 
